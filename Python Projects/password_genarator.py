@@ -12,7 +12,7 @@ password = ""
 
 
 for num in range(0, nr_letters):#uses the users input to create a range 0 -nth
-    password += (letters[random.randint(0,52)])
+    password += (letters[random.randint(0,51)])
 #this then appends random letters from the letters list to the password variable
 for num in range(0, nr_numbers):
      password += (numbers[random.randint(0,9)])
